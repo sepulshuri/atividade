@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Leia numeros</h1>
+    <p>numero 1: <span id="numero1"></span></p>
+    <p>numero 2: <span id="numero2"></span></p>
+    <p>resultado: <span id="resultado"></span></p>
+ 
+    <script>
+
+        let numero1;
+        let numero2;
+        let resultado;
+ 
+        numero1 = prompt("Digite o primeiro numero")
+        numero2 = prompt("Digite o segundo numero")
+ 
+        resultado;
+        if(numero1 < numero2)
+        resultado = "número 2 é maior que o número 1"
+       
+        resultado;
+        if(numero2 < numero1)
+        resultado = "número 1 é maior que o número 2"
+ 
+ 
+        document.getElementById('numero1').innerHTML = numero1;
+        document.getElementById('numero2').innerHTML = numero2;
+        document.getElementById('resultado').innerHTML = resultado;
+ 
+ 
+    </script>
+</body>
+</html>

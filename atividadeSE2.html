@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>medir peso</h1>
+    <p>nome da primeira pessoa: <span id="nome"></span></p>
+    <p>peso da primeira pessoa: <span id="peso"></span></p>
+    <p>nome da segunda pessoa: <span id="nome2"></span></p>
+    <p>peso da segunda pessoa: <span id="peso2"></span></p>
+    <p>resultado: <span id="resultado"></span></p>
+ 
+    <script>
+        let nome;
+        let peso;
+        let nome2;
+        let peso2;
+        let resultado;
+ 
+        nome = prompt("nome da primeira pessoa")
+        peso = prompt("peso da primeira pessoa")
+        nome2 = prompt("nome da segunda pessoa")
+        peso2 = prompt("peso da segunda pessoa")
+ 
+        resultado;
+        if(peso > peso2)
+        resultado = "peso da primeira pessoa maior que a segunda"
+       
+        
+        if(peso2 > peso)
+        resultado = "peso da segunda pessoa é maior que a primeira"
+ 
+ 
+        document.getElementById('nome').innerHTML = nome;
+        document.getElementById('nome2').innerHTML = nome2;
+        document.getElementById('peso').innerHTML = peso;
+        document.getElementById('peso2').innerHTML = peso2;
+        document.getElementById('resultado').innerHTML = resultado;
+
+        </script>
+ 
+</body>
+</html>
